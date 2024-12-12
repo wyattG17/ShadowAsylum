@@ -35,6 +35,11 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
+    public bool HasItem(GameObject item)
+    {
+        return inventory.Contains(item);
+    }
+
     public void RemoveItem(GameObject item)
     {
         if (inventory.Contains(item))

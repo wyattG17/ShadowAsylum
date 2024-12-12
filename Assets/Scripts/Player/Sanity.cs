@@ -31,7 +31,7 @@ public class Sanity : MonoBehaviour
         }
     }
 
-    private void UpdateInsanitySprite()
+    public void UpdateInsanitySprite()
     {
         if (insanity >= 0)
         {
