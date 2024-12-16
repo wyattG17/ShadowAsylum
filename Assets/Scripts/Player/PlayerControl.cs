@@ -38,23 +38,5 @@ public class PlayerControl : MonoBehaviour
         {
             rb.velocity = movement * walkSpeed;
         }
-
-        // Check for interactable objects near the player
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 3f); // Adjust radius as needed
-            foreach (Collider2D collider in colliders)
-            {
-                Interactable interactable = collider.GetComponent<Interactable>();
-                if (interactable != null && interactable.IsPlayerInRange())
-                {
-                    if (interactable != null)
-                    {
-                        interactable.Interact();
-                        return;
-                    }
-                }
-            }
-        }
     }
 }
