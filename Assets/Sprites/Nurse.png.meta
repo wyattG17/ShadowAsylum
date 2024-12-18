@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8b9a3bee6fd1354488aea12936931499
+guid: 07caf70b82fa63d43848a255e4fa7d99
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,22 +97,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sryinge_0
+      name: Nurse_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 12
-        height: 12
+        x: 25
+        y: 53
+        width: 14
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69437c494a0245044a1664de5b1e062d
-      internalID: -1955231509
+      spriteID: adaf009facc588a48ac749151e6cbecb
+      internalID: 904210673
       vertices: []
       indices: 
       edges: []
@@ -121,14 +121,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sryinge_0: -1955231509
+      Nurse_0: 904210673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
